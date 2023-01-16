@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098832BE29752EEB0015BAC2 /* KIFSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098832BD29752EEB0015BAC2 /* KIFSwiftApp.swift */; };
+		098832C029752EEB0015BAC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098832BF29752EEB0015BAC2 /* ContentView.swift */; };
+		098832C229752EEF0015BAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098832C129752EEF0015BAC2 /* Assets.xcassets */; };
+		098832C529752EEF0015BAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098832C429752EEF0015BAC2 /* Preview Assets.xcassets */; };
+		098832D529752F410015BAC2 /* KIFSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098832D429752F410015BAC2 /* KIFSwiftTests.swift */; };
+		098832DD29752F5C0015BAC2 /* KIF in Frameworks */ = {isa = PBXBuildFile; productRef = 098832DC29752F5C0015BAC2 /* KIF */; };
+		098832E0297536020015BAC2 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 098832DF297536020015BAC2 /* Nimble */; };
+		098832E32975361E0015BAC2 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 098832E22975361E0015BAC2 /* Quick */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		098832D629752F410015BAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 098832B229752EEB0015BAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 098832B929752EEB0015BAC2;
+			remoteInfo = KIFSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098832BA29752EEB0015BAC2 /* KIFSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		098832BD29752EEB0015BAC2 /* KIFSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIFSwiftApp.swift; sourceTree = "<group>"; };
+		098832BF29752EEB0015BAC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		098832C129752EEF0015BAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		098832C429752EEF0015BAC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		098832D229752F400015BAC2 /* KIFSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		098832D429752F410015BAC2 /* KIFSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIFSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098832B729752EEB0015BAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098832CF29752F400015BAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098832E32975361E0015BAC2 /* Quick in Frameworks */,
+				098832DD29752F5C0015BAC2 /* KIF in Frameworks */,
+				098832E0297536020015BAC2 /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098832B129752EEB0015BAC2 = {
+			isa = PBXGroup;
+			children = (
+				098832BC29752EEB0015BAC2 /* KIFSwift */,
+				098832D329752F410015BAC2 /* KIFSwiftTests */,
+				098832BB29752EEB0015BAC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		098832BB29752EEB0015BAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				098832BA29752EEB0015BAC2 /* KIFSwift.app */,
+				098832D229752F400015BAC2 /* KIFSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		098832BC29752EEB0015BAC2 /* KIFSwift */ = {
+			isa = PBXGroup;
+			children = (
+				098832BD29752EEB0015BAC2 /* KIFSwiftApp.swift */,
+				098832BF29752EEB0015BAC2 /* ContentView.swift */,
+				098832C129752EEF0015BAC2 /* Assets.xcassets */,
+				098832C329752EEF0015BAC2 /* Preview Content */,
+			);
+			path = KIFSwift;
+			sourceTree = "<group>";
+		};
+		098832C329752EEF0015BAC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				098832C429752EEF0015BAC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		098832D329752F410015BAC2 /* KIFSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				098832D429752F410015BAC2 /* KIFSwiftTests.swift */,
+			);
+			path = KIFSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		098832B929752EEB0015BAC2 /* KIFSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098832C829752EEF0015BAC2 /* Build configuration list for PBXNativeTarget "KIFSwift" */;
+			buildPhases = (
+				098832B629752EEB0015BAC2 /* Sources */,
+				098832B729752EEB0015BAC2 /* Frameworks */,
+				098832B829752EEB0015BAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIFSwift;
+			packageProductDependencies = (
+			);
+			productName = KIFSwift;
+			productReference = 098832BA29752EEB0015BAC2 /* KIFSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		098832D129752F400015BAC2 /* KIFSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098832D829752F410015BAC2 /* Build configuration list for PBXNativeTarget "KIFSwiftTests" */;
+			buildPhases = (
+				098832CE29752F400015BAC2 /* Sources */,
+				098832CF29752F400015BAC2 /* Frameworks */,
+				098832D029752F400015BAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				098832D729752F410015BAC2 /* PBXTargetDependency */,
+			);
+			name = KIFSwiftTests;
+			packageProductDependencies = (
+				098832DC29752F5C0015BAC2 /* KIF */,
+				098832DF297536020015BAC2 /* Nimble */,
+				098832E22975361E0015BAC2 /* Quick */,
+			);
+			productName = KIFSwiftTests;
+			productReference = 098832D229752F400015BAC2 /* KIFSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		098832B229752EEB0015BAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					098832B929752EEB0015BAC2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					098832D129752F400015BAC2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 098832B929752EEB0015BAC2;
+					};
+				};
+			};
+			buildConfigurationList = 098832B529752EEB0015BAC2 /* Build configuration list for PBXProject "KIFSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 098832B129752EEB0015BAC2;
+			packageReferences = (
+				098832DB29752F5C0015BAC2 /* XCRemoteSwiftPackageReference "KIF" */,
+				098832DE297536020015BAC2 /* XCRemoteSwiftPackageReference "Nimble" */,
+				098832E12975361E0015BAC2 /* XCRemoteSwiftPackageReference "Quick" */,
+			);
+			productRefGroup = 098832BB29752EEB0015BAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				098832B929752EEB0015BAC2 /* KIFSwift */,
+				098832D129752F400015BAC2 /* KIFSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		098832B829752EEB0015BAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098832C529752EEF0015BAC2 /* Preview Assets.xcassets in Resources */,
+				098832C229752EEF0015BAC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098832D029752F400015BAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098832B629752EEB0015BAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098832C029752EEB0015BAC2 /* ContentView.swift in Sources */,
+				098832BE29752EEB0015BAC2 /* KIFSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098832CE29752F400015BAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098832D529752F410015BAC2 /* KIFSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		098832D729752F410015BAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 098832B929752EEB0015BAC2 /* KIFSwift */;
+			targetProxy = 098832D629752F410015BAC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		098832C629752EEF0015BAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		098832C729752EEF0015BAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		098832C929752EEF0015BAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KIFSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.KIFSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		098832CA29752EEF0015BAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KIFSwift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.KIFSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		098832D929752F410015BAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.KIFSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIFSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KIFSwift";
+			};
+			name = Debug;
+		};
+		098832DA29752F410015BAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.KIFSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIFSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KIFSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098832B529752EEB0015BAC2 /* Build configuration list for PBXProject "KIFSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098832C629752EEF0015BAC2 /* Debug */,
+				098832C729752EEF0015BAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098832C829752EEF0015BAC2 /* Build configuration list for PBXNativeTarget "KIFSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098832C929752EEF0015BAC2 /* Debug */,
+				098832CA29752EEF0015BAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098832D829752F410015BAC2 /* Build configuration list for PBXNativeTarget "KIFSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098832D929752F410015BAC2 /* Debug */,
+				098832DA29752F410015BAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		098832DB29752F5C0015BAC2 /* XCRemoteSwiftPackageReference "KIF" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kif-framework/KIF";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		098832DE297536020015BAC2 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		098832E12975361E0015BAC2 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		098832DC29752F5C0015BAC2 /* KIF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 098832DB29752F5C0015BAC2 /* XCRemoteSwiftPackageReference "KIF" */;
+			productName = KIF;
+		};
+		098832DF297536020015BAC2 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 098832DE297536020015BAC2 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		098832E22975361E0015BAC2 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 098832E12975361E0015BAC2 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 098832B229752EEB0015BAC2 /* Project object */;
+}
