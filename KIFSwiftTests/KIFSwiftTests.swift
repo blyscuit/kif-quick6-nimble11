@@ -18,7 +18,7 @@ final class HomeSpec: QuickSpec {
 
             describe("its open") {
 
-                it("it shows its ui components") {
+                it("it shows its ui components") { @MainActor in
                     self.tester().waitForView(
                         withAccessibilityLabel: "Done"
                     )
