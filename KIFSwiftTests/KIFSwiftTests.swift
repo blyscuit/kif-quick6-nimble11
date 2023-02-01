@@ -18,13 +18,38 @@ final class HomeSpec: QuickSpec {
 
             describe("its open") {
 
-                it("it shows its ui components") { @MainActor in
-                    self.tester().waitForView(
-                        withAccessibilityLabel: "Done"
-                    )
+                it("it shows its ui components") {
+                    self.tester().wait(forTimeInterval: 0.01)
+                    await self.checkHello()
+//                    self.tester().wait(forTimeInterval: 0.01)
+                    await self.showAlert()
+//                    self.tester().wait(forTimeInterval: 0.01)
+                    await self.closeAlert()
+                    self.tester().wait(forTimeInterval: 1.01)
+                    await self.checkNoAlert()
                 }
             }
         }
+    }
+
+    @MainActor
+    func checkHello() {
+        self.tester().waitForView(withAccessibilityLabel: "Hello, world!")
+    }
+
+    @MainActor
+    func showAlert() {
+        self.tester().tapView(withAccessibilityLabel: "Show")
+    }
+
+    @MainActor
+    func closeAlert() {
+        self.tester().tapView(withAccessibilityLabel: "Close")
+    }
+
+    @MainActor
+    func checkNoAlert() {
+        self.tester().waitForAbsenceOfView(withAccessibilityLabel: "OK")
     }
 }
 

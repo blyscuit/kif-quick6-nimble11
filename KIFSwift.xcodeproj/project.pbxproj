@@ -12,9 +12,9 @@
 		098832C229752EEF0015BAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098832C129752EEF0015BAC2 /* Assets.xcassets */; };
 		098832C529752EEF0015BAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098832C429752EEF0015BAC2 /* Preview Assets.xcassets */; };
 		098832D529752F410015BAC2 /* KIFSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098832D429752F410015BAC2 /* KIFSwiftTests.swift */; };
-		098832DD29752F5C0015BAC2 /* KIF in Frameworks */ = {isa = PBXBuildFile; productRef = 098832DC29752F5C0015BAC2 /* KIF */; };
 		098832E0297536020015BAC2 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 098832DF297536020015BAC2 /* Nimble */; };
 		098832E32975361E0015BAC2 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 098832E22975361E0015BAC2 /* Quick */; };
+		09E08C23298A1A4900CC765C /* KIF in Frameworks */ = {isa = PBXBuildFile; productRef = 09E08C22298A1A4900CC765C /* KIF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E08C23298A1A4900CC765C /* KIF in Frameworks */,
 				098832E32975361E0015BAC2 /* Quick in Frameworks */,
-				098832DD29752F5C0015BAC2 /* KIF in Frameworks */,
 				098832E0297536020015BAC2 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +64,7 @@
 				098832BC29752EEB0015BAC2 /* KIFSwift */,
 				098832D329752F410015BAC2 /* KIFSwiftTests */,
 				098832BB29752EEB0015BAC2 /* Products */,
+				09E08C18298A128300CC765C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +104,13 @@
 			path = KIFSwiftTests;
 			sourceTree = "<group>";
 		};
+		09E08C18298A128300CC765C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +148,9 @@
 			);
 			name = KIFSwiftTests;
 			packageProductDependencies = (
-				098832DC29752F5C0015BAC2 /* KIF */,
 				098832DF297536020015BAC2 /* Nimble */,
 				098832E22975361E0015BAC2 /* Quick */,
+				09E08C22298A1A4900CC765C /* KIF */,
 			);
 			productName = KIFSwiftTests;
 			productReference = 098832D229752F400015BAC2 /* KIFSwiftTests.xctest */;
@@ -177,9 +185,9 @@
 			);
 			mainGroup = 098832B129752EEB0015BAC2;
 			packageReferences = (
-				098832DB29752F5C0015BAC2 /* XCRemoteSwiftPackageReference "KIF" */,
 				098832DE297536020015BAC2 /* XCRemoteSwiftPackageReference "Nimble" */,
 				098832E12975361E0015BAC2 /* XCRemoteSwiftPackageReference "Quick" */,
+				09E08C21298A1A4900CC765C /* XCRemoteSwiftPackageReference "KIF" */,
 			);
 			productRefGroup = 098832BB29752EEB0015BAC2 /* Products */;
 			projectDirPath = "";
@@ -417,6 +425,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.KIFSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -434,6 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.KIFSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -476,14 +486,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		098832DB29752F5C0015BAC2 /* XCRemoteSwiftPackageReference "KIF" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kif-framework/KIF";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
 		098832DE297536020015BAC2 /* XCRemoteSwiftPackageReference "Nimble" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Nimble";
@@ -500,14 +502,17 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		09E08C21298A1A4900CC765C /* XCRemoteSwiftPackageReference "KIF" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kif-framework/KIF";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		098832DC29752F5C0015BAC2 /* KIF */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 098832DB29752F5C0015BAC2 /* XCRemoteSwiftPackageReference "KIF" */;
-			productName = KIF;
-		};
 		098832DF297536020015BAC2 /* Nimble */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 098832DE297536020015BAC2 /* XCRemoteSwiftPackageReference "Nimble" */;
@@ -517,6 +522,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 098832E12975361E0015BAC2 /* XCRemoteSwiftPackageReference "Quick" */;
 			productName = Quick;
+		};
+		09E08C22298A1A4900CC765C /* KIF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09E08C21298A1A4900CC765C /* XCRemoteSwiftPackageReference "KIF" */;
+			productName = KIF;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
